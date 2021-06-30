@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  text-align: center;
+  font-size: 20px;
+  background-color: gainsboro;
+}
+.main-div {
+  visibility: hidden;
+}
+.startBtn {
+  background-color: rgb(93, 192, 93);
+  margin: 0px auto;
+  padding: 10px 25px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.resetBtn {
+  visibility: hidden;
+  background-color: rgb(93, 192, 93);
+  margin: 0px auto;
+  padding: 10px 25px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.result {
+  border-color: lightslategrey;
+  font-style: oblique;
+  font-size: 30px;
+  text-align: center;
+}
+.wrong {
+  background-color: crimson;
+  padding: 10px 20px;
+  margin: 20px 200px;
+}
+.correct {
+  background-color: greenyellow;
+  padding: 10px 20px;
+  margin: 20px 200px;
+}
+.Button {
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 10px 30px;
+  font-size: 35px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Buttons-Lottery!</h1>
+    <h3>Choose the correct button and WIN!</h3>
+    <button type="button" id="start" class="startBtn" onclick="start()">START</button>
+    <br></br>
+    <button type="button" id="reset" class="resetBtn" onclick="resetGame()">Try again!</button>
+    <br></br>
+    <div id="main-div" class="main-div">
+        <button id="1" class="Button" onclick="checkBtn(this.id)">CHOOSE ME! 😃</button> 
+        <button id="2" class="Button" onclick="checkBtn(this.id)">CHOOSE ME! 😎</button>
+        <button id="3" class="Button" onclick="checkBtn(this.id)">CHOOSE ME! 🤪</button>
+        <br></br>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="nButtons.js"></script>
+
+</body>
+</html>
