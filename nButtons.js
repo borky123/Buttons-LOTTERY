@@ -4,13 +4,13 @@ let result = document.getElementById("result");
 let randomBtn = null;
 
 function start() {
+    randomBtn = Math.floor(Math.random() * 3 + 1);
     let startBtn = document.getElementById("start");
     let main_div = document.getElementById("main-div");
     main_div.style.visibility = "visible";
     startBtn.style.visibility = "hidden";
 }
 function checkBtn(btnId) {
-    randomBtn = Math.floor(Math.random() * 3 + 1);
     if(btnId == randomBtn) {
         result.textContent = "WOW! You WON!";
         result.classList.add("correct");
@@ -27,7 +27,7 @@ function checkBtn(btnId) {
 }
 function resetGame() {
     btnId = null;
-    randomBtn = null;
+    randomBtn = Math.floor(Math.random() * 3 + 1);
     resetBtn.style.visibility = "hidden";
     result.style.visibility = "hidden";
     result.classList.remove("correct");
